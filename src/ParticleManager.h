@@ -53,6 +53,7 @@ class ParticleManager {
 
             auto emitter = CCParticleSystemQuad::create();
             emitter->initWithDictionary(dict, false);
+            emitter->setID("grd-particles-1");
             
             return emitter;
         }
@@ -106,6 +107,7 @@ class ParticleManager {
 
             auto emitter = CCParticleSystemQuad::create();
             emitter->initWithDictionary(dict, false);
+            emitter->setID("grd-particles-1");
             
             return emitter;
         }
@@ -167,6 +169,7 @@ class ParticleManager {
 
             auto emitter = CCParticleSystemQuad::create();
             emitter->initWithDictionary(dict, false);
+            emitter->setID("grd-particles-1");
             
             return emitter;
         }
@@ -218,6 +221,7 @@ class ParticleManager {
 
             auto emitter = CCParticleSystemQuad::create();
             emitter->initWithDictionary(dict, false);
+            emitter->setID("grd-particles-2");
             
             return emitter;
         }
