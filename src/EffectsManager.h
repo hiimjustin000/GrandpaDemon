@@ -100,6 +100,7 @@ class EffectsManager {
             bg1->setAnchorPoint({0.5, 0});
             bg1->setPosition({winSize.width / 2, 0});
             bg1->setZOrder(-5);
+            bg1->setID("grd-background-1");
             float bg1_height = bg1->getScaledContentSize().height;
             auto movedown1 = CCMoveTo::create(20, {winSize.width / 2, bg1_height * -0.15f});
 
@@ -149,6 +150,7 @@ class EffectsManager {
             bg2->setAnchorPoint({0.5, 0});
             bg2->setPosition({winSize.width / 2, 0});
             bg2->setZOrder(-4);
+            bg2->setID("grd-background-2");
             float bg2_height = bg2->getScaledContentSize().height;
             auto movedown2 = CCMoveTo::create(30, {winSize.width / 2, bg2_height * -0.75f});
 
@@ -243,6 +245,7 @@ class EffectsManager {
             bg1->setAnchorPoint({0.5, 0});
             bg1->setPosition({winSize.width / 2, 0});
             bg1->setZOrder(-5);
+            bg1->setID("grd-background-1");
             float bg1_height = bg1->getScaledContentSize().height;
             auto movedown1 = CCMoveTo::create(20, {winSize.width / 2, bg1_height * -0.35f});
 
@@ -328,6 +331,7 @@ class EffectsManager {
             bg1->setAnchorPoint({0.5, 0});
             bg1->setPosition({winSize.width / 2, 0});
             bg1->setZOrder(-5);
+            bg1->setID("grd-background-1");
             float bg1_height = bg1->getScaledContentSize().height;
             auto movedown1 = CCMoveTo::create(20, {winSize.width / 2, bg1_height * -0.25f});
 
