@@ -11,7 +11,7 @@
 	"developer": "ItzKiba",
 	"description": "Adds additional demon difficulties",
 	"resources": {
-        "spritesheets": {
+	"spritesheets": {
 			"GrD_IconSheet": [
 				"resources/demons/*.png"
 			],
@@ -22,7 +22,7 @@
 		"sprites": [
 			"resources/GrD_demon4_bg.png"
 		]
-    },
+	},
 	"settings": {
 		"grandpa-demon-disable": {
 			"name": "Disable Grandpa Demon",
@@ -43,6 +43,13 @@
 			"default": false
 		}
 	},
+	"dependencies": [
+		{
+			"id": "geode.node-ids",
+			"version": ">=v1.12.0",
+			"importance": "required"
+		}
+	],
 	"tags": ["online", "enhancement", "interface"],
 	"repository": "https://github.com/ItzKiba/GrandpaDemon"
 }
